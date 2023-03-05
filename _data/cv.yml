@@ -52,13 +52,14 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2019
-      items: 
-        - ZheJiang University First Class Scholarship
+    
     - year: 2022
       items: 
         - ZheJiang University Excellence Award of Professional Scholarship
         - Outstanding Graduates of ZheJiang University
+    - year: 2019
+      items: 
+        - ZheJiang University First Class Scholarship
 
 - title: Academic Interests
   type: nested_list
