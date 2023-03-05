@@ -11,6 +11,115 @@
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
     {% if page._styles %}
+     <style>      
+      d-article d-contents {
+        align-self: start;
+        grid-column: 1 / 4;
+        grid-row: auto / span 3;
+        width: max(70%, 300px);      
+        margin-right: 0px;
+        margin-top:  0em;
+        display: grid;      
+        grid-template-columns: 
+          minmax(8px, 1fr) [toc] auto 
+          minmax(8px, 1fr) [toc-line] 1px
+          minmax(32px, 2fr );      
+      }
+      d-article d-contents nav {      
+        grid-column: toc;
+      }
+      d-article d-contents .figcaption {
+        line-height: 1.4em;
+      }
+      d-article d-contents .toc-line {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        grid-column: toc-line;
+      } 
+  
+      b i {
+        display: inline;
+      }
+  
+      d-article d-contents {      
+        align-self: start;
+        grid-column: 1 / 4;
+        grid-row: auto / span 4;
+        justify-self: end;
+        margin-top: 0em;
+        padding-right: 3em;
+        padding-left: 2em;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+      }
+  
+      d-contents nav h3 {
+        margin-top: 0;
+        margin-bottom: 1em;
+      }
+  
+      d-contents nav div {
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+      }
+  
+      d-contents nav a {
+        color: rgba(0, 0, 0, 0.8);
+        border-bottom: none;
+        text-decoration: none;
+      }
+  
+      d-contents ul {
+        padding-left: 1em;
+      }
+  
+      d-contents nav ul li {
+        margin-bottom: 0.25em;
+      }
+  
+      d-contents nav a:hover {
+        text-decoration: underline solid rgba(0, 0, 0, 0.6);
+      }
+  
+      d-contents nav ul {
+        margin-top: 0;
+        margin-bottom: 6px;
+      }
+  
+      d-contents nav > div {
+        display: block;
+        outline: none;
+        margin-bottom: 0.8em;
+      }
+  
+      d-contents nav > div > a {
+        font-size: 13px;
+        font-weight: 600;
+      }
+  
+      
+      d-contents nav > ul > li > a:hover {
+        text-decoration: none;
+      }
+
+      
+    @media (max-width: 1300px) {
+      d-article d-contents {      
+        justify-self: start;
+        align-self: start;        
+        grid-column-start: 3;
+        grid-column-end: -3;
+        padding-bottom: 0.5em;
+        margin-bottom: 1em;
+        padding-top: 0.5em;            
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(0, 0, 0, 0.1);          
+      }
+    }
+    </style>
     <!-- Page/Post style -->
     <style type="text/css">
       {{ page._styles }}

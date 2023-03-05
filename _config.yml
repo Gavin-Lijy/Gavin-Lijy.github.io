@@ -144,15 +144,15 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: Gavin # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -214,6 +214,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-toc
 
 # Sitemap settings
 defaults:
@@ -221,6 +222,8 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+      toc: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
