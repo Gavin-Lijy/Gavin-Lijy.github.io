@@ -2,96 +2,79 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jingyu Gavin Li
     - name: Date of Birth
-      value: 14th March 1879
+      value: 10th March 2000
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor
+      institution: Chu Kochen Honors College, ZheJiang University, China
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
+        - Applied Biology
+        - Undergraduate Honors Program 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant to Professor Wolf Reik
+      institution: Babraham Institute, UK
+      year: 2021.04 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing deep learning methods to decipher epigenetic mechanism 
+        - Explored single cell multi-omics data of mouse gastrulation
+    - title: Research Intern to Professor Hongqing Liang
+      institution: ZheJiang University School of Medicine, China
+      year: 2020.12 - 2021.03
       description:
-        - Description 1.
-        - Description 2.
+        - Constructed a single cell transcription map of induced 8C-like cells from human embryonic stem cells
+        - Explored the expression and regulation of endogenous retrovirus such as MLT2A1
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Intern to Professor Li Shen
+      institution: Life Sciences Institute of ZheJiang University, China
+      year: 2020.09 - 2020.11
+      description: 
+        - Developed an R package to analyse scATAC-seq for imputation and scalable dimension reduction
+        - Designed a new algorithm to find the gene regulation modules from scATAC-seq data
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern to Professor Guoji Guo
+      institution: ZheJiang University School of Medicine, China
+      year: 2019.09 - 2020.08
       description:
+        - Analysed the scRNA-seq data to map mouse embryonic development landscape
+        - Applied deep learning to dissect the relation between gene sequence and lineage specificity
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - ZheJiang University First Class Scholarship
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - ZheJiang University Excellence Award of Professional Scholarship
+        - Outstanding Graduates of ZheJiang University
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Epigenetics
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Epigenetic priming
+        - Fate decision
+        - Gene regulatory networks
+    - title: Single cell multi-omics
       items:
-        - Description 1.
-        - Description 2.
+        - Deep learning models
+        - In silico perturbation/prediction
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Dramas, Films, etc.
