@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Babraham Institute</a> Cambridge
+subtitle: <a href='https://www.babraham.ac.uk/'>Babraham Institute.</a> Cambridge.
 
 profile:
   align: right
