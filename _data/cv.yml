@@ -24,14 +24,8 @@
       institution: Babraham Institute, UK
       year: 2021.04 - Now
       description:
-        - Developing deep learning methods to decipher epigenetic mechanism 
-        - Explored single cell multi-omics data of mouse gastrulation
-    - title: Research Intern to Professor Hongqing Liang
-      institution: ZheJiang University School of Medicine, China
-      year: 2020.12 - 2021.03
-      description:
-        - Constructed a single cell transcription map of induced 8C-like cells from human embryonic stem cells
-        - Explored the expression and regulation of endogenous retrovirus such as MLT2A1
+        - Developed an algorithm to build gene regulatory networks leveraging the multi-omics gastrulation atlas
+        - Deciphered the priming mechanism of Brachyury to control the differentiation of NMP
 
     - title: Research Intern to Professor Li Shen
       institution: Life Sciences Institute of ZheJiang University, China
